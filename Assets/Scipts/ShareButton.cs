@@ -25,7 +25,7 @@ private IEnumerator TakeScreenshotAndShare()
 	Destroy( ss );
 
 	new NativeShare().AddFile( filePath )
-		.SetSubject( "arplace" ).SetText( "Sharing new content from arplace" )
+		.SetSubject( "arthing" ).SetText( "Sharing new content from arthing" )
 		.Share();
 
 }
